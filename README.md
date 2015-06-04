@@ -1,4 +1,4 @@
 BlockClient
 ===========
 
-A simple python application, acts as a MCPE client (no graphics).
+A simple MCPE bot written java with support for scripts.
