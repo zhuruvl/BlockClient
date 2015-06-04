@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.beaconpe.blockclient</groupId>
+    <artifactId>BlockClient</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <repositories>
+        <repository>
+            <id>snapshot-repo</id>
+            <url>http://repo.blockserver.org/snapshots</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.blockserver</groupId>
+            <artifactId>BlockServer-IO-Lib</artifactId>
+            <version>0.0-BETA-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.blockserver</groupId>
+            <artifactId>BlockServer</artifactId>
+            <version>1.0.0-BETA-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tinfoiled.mcpe.leveldb</groupId>
+            <artifactId>leveldb</artifactId>
+            <version>0.8-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>2.0-rc1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.0-rc1</version>
+        </dependency>
+    </dependencies>
+
+</project>
